@@ -1,0 +1,46 @@
+#page-question main{
+    max-width: 1120px;
+    margin: 0 auto;  
+    padding: 24px;
+}
+
+#page-question main h1{
+    font-size: 22px;    
+    margin: 20px 0;
+}
+#page-question main form textarea{
+    width: 100%;
+    border: 0;
+    padding:16px;
+    border-radius: 8px;
+    background: #fefefe;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    resize: vertical;
+    min-height: 130px;
+}
+
+#page-question main form .form-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+#page-question main form .form-footer p{
+    font-size: 14px;
+    color: #737380;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+#page-question main form .form-footer > p span {   
+    color: #835AFD;  
+}
+
+#page-question main .answers-length span {
+    color:#737380;
+}
+#page-question main .question-list {
+    margin-top: 10px;
+}
+
